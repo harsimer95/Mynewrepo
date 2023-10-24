@@ -21,7 +21,7 @@ db.once('open', () => {
   console.log('Connected to MongoDB');
 
   app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to Marketing Application.' });
+    res.json({ message: 'Welcome to Marketing project.' });
   });
 
 
